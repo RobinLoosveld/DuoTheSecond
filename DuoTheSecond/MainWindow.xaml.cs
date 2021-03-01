@@ -25,6 +25,12 @@ namespace DuoTheSecond
             InitializeComponent();
             
         }
+        int Count = 0;
+        private void btnCount_Click(object sender, RoutedEventArgs e)
+        {
+            Count++;
+            lblResultCount.Content = Count;
+        }
         //Hello world tijd
     }
 }
