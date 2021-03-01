@@ -23,6 +23,8 @@ namespace DuoTheSecond
         public MainWindow()
         {
             InitializeComponent();
+            
         }
+        //Hello world tijd
     }
 }
