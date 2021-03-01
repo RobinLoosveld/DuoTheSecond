@@ -25,6 +25,11 @@ namespace DuoTheSecond
             InitializeComponent();
             
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblHello.Content = "Hello World!";
+        }
         //Hello world tijd
     }
 }
